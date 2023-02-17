@@ -1,5 +1,4 @@
 queueteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
-queueteleport("https://raw.githubusercontent.com/solar-utilities/ROBLOX/main/Free/Dungeon%20Quest.lua")
 
 _G.teleportDuringBossOnly = true
 _G.doInstakill = true
@@ -90,4 +89,5 @@ _G.UI_lvl = "33"
 _G.webhookEnabled = false
 _G.webhookLink = nil
 
+queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/solar-utilities/ROBLOX/main/Free/Dungeon%20Quest.lua', true))()")
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/PeanutQuest/PeanutQuestBeta/main/Release.lua'),true))()
