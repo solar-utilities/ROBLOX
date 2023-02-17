@@ -1,5 +1,5 @@
 queueteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
-queueteleport("")
+queueteleport("https://raw.githubusercontent.com/solar-utilities/ROBLOX/main/Free/Dungeon%20Quest.lua")
 
 _G.teleportDuringBossOnly = true
 _G.doInstakill = true
